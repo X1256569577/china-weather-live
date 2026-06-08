@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.vite/
+.DS_Store
+.venv/
+*.tsbuildinfo
+*.log
+*.zip
+backend-server*.log
+frontend-server*.log
