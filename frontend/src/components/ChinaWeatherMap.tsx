@@ -22,6 +22,7 @@ type GeoJson = {
 };
 
 const MISSING_MAP_MESSAGE = "请放置中国地图 GeoJSON 到 public/maps/china.json";
+const CHINA_MAP_URL = `${import.meta.env.BASE_URL}maps/china.json`;
 
 const provinceAliases: Record<string, string[]> = {
   北京: ["北京", "北京市"],
@@ -139,7 +140,7 @@ function ChinaWeatherMap({ data, loading }: ChinaWeatherMapProps) {
 
     async function loadMap() {
       try {
-        const response = await fetch("/maps/china.json");
+        const response = await fetch(CHINA_MAP_URL);
         if (!response.ok) {
           throw new Error(MISSING_MAP_MESSAGE);
         }
