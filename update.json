@@ -1,6 +1,10 @@
 {
-  "version": "1.0.0",
-  "download_url": "",
-  "sha256": "",
-  "force_update": false
+    "app_id":  "qianchuan_auth_desktop",
+    "version":  "2026.09.21.2345-online-update",
+    "asset_name":  "qianchuan_auth_desktop.exe",
+    "download_url":  "https://github.com/X1256569577/china-weather-live/releases/download/qianchuan-v2026.09.21.2345/qianchuan_auth_desktop.exe",
+    "sha256":  "a8a5face13e9566ad6f1a2f93bc571e324bf067ca35a181976bf986841ec69d1",
+    "force_update":  false,
+    "release_notes":  "Online update, SHA256 verification, safe executable replacement, and publish-failure skip.",
+    "published_at":  "2026-09-22T00:06:37.7739740+08:00"
 }
