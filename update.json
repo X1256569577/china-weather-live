@@ -1,10 +1,10 @@
-{
+﻿{
     "app_id":  "qianchuan_auth_desktop",
-    "version":  "2026.09.22.1530-plan-resume-fix",
+    "version":  "2026.09.22.1615-material-pagination-fix",
     "asset_name":  "qianchuan_auth_desktop.exe",
-    "download_url":  "https://github.com/X1256569577/china-weather-live/releases/download/qianchuan-v2026.09.22.1530-plan-resume-fix/qianchuan_auth_desktop.exe",
-    "sha256":  "ce062d75c31d669643e6c85a1d821fdc4274ab3d480db5135d816ae2096333f9",
+    "download_url":  "https://github.com/X1256569577/china-weather-live/releases/download/qianchuan-v2026.09.22.1615-material-pagination-fix/qianchuan_auth_desktop.exe",
+    "sha256":  "1cfb006242ecf29b628f3c8bc185ce467abce88f82b68da86382579097e4cb40",
     "force_update":  false,
-    "release_notes":  "修复建计划后台任务中途重启后从头开始的问题：增加建计划表指纹断点、原子写入进度、主界面同步保存，并支持换电脑或路径变化后恢复同一份建计划表的进度。",
-    "published_at":  "2026-09-22T15:01:36.9030595+08:00"
+    "release_notes":  "修复建计划每条执行到素材选择阶段只选中第一页90条后重新开始的问题。素材全选、分页、确定按钮恢复为单次 DOM 点击，保留抖音号下拉框的鼠标事件修复；同时保留断点续跑和换电脑路径恢复。",
+    "published_at":  "2026-09-22T15:14:02.4959149+08:00"
 }
